@@ -1,0 +1,701 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90rem;
+  height: 64rem;
+  background-color: #FAFAFA;
+  display: inline-block;
+}
+
+.content1 {
+  width: 1111px;
+  height: 40px;
+  margin-top: 89px;
+  margin-left: 165px;
+  display: inline-flex;
+}
+.content1 .mobile {
+  display: none;
+}
+.content1 .W {
+  width: 64.09px;
+  height: 39.9px;
+  margin-top: -3px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 56px;
+  /* or 100% */
+  display: flex;
+  align-items: center;
+  /* Dark Space Blue */
+  color: #00001A;
+}
+.content1 .menu {
+  width: 445px;
+  height: 26px;
+  margin-left: 600px;
+}
+
+.menu #home {
+  width: 42px;
+  height: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+  /* Gunmetal */
+  color: #5E607A;
+}
+.menu #new {
+  width: 33px;
+  height: 26px;
+  margin-left: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+  /* Gunmetal */
+  color: #5E607A;
+}
+.menu #popular {
+  width: 54px;
+  height: 26px;
+  margin-left: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+  /* Gunmetal */
+  color: #5E607A;
+}
+.menu #trending {
+  width: 63px;
+  height: 26px;
+  margin-left: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+  /* Gunmetal */
+  color: #5E607A;
+}
+.menu #categories {
+  width: 78px;
+  height: 26px;
+  margin-left: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+  /* Gunmetal */
+  color: #5E607A;
+}
+
+.content2 {
+  width: 1110px;
+  height: 511px;
+  margin-top: 56px;
+  margin-left: 165px;
+  display: inline-flex;
+}
+.content2 #box1 {
+  width: 730px;
+  height: 584px;
+}
+.content2 #box2 {
+  width: 350px;
+  height: 511px;
+  margin-left: 30px;
+  display: inline-block;
+  background-color: #00001A;
+  border-radius: 3px;
+}
+
+#box1 #image {
+  width: 730px;
+  height: 300px;
+}
+#box1 #inlinebox {
+  width: 730px;
+  height: 183px;
+  margin-top: 28px;
+  display: inline-flex;
+}
+
+#inlinebox #span1 {
+  width: 350px;
+  height: 182px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 56px;
+  /* or 100% */
+  display: flex;
+  align-items: center;
+  /* Dark Space Blue */
+  color: #00001A;
+}
+#inlinebox .info {
+  width: 350px;
+  height: 181px;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.info #span2 {
+  width: 350px;
+  height: 104px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* or 173% */
+  /* Gunmetal */
+  color: #5E607A;
+}
+.info #button {
+  width: 185px;
+  height: 48px;
+  margin-top: 29px;
+}
+
+#button #background {
+  width: 185px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F15D51;
+}
+
+#background #span3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  letter-spacing: 4.375px;
+  /* Almost White */
+  color: #FFFDFA;
+}
+
+#box2 #span4 {
+  position: relative;
+  width: 88px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  /* identical to box height, or 100% */
+  /* Yellow */
+  color: #E9AA52;
+}
+#box2 .insidebox1 {
+  width: 302px;
+  height: 84px;
+  margin-top: 34px;
+  margin-left: 24px;
+  display: inline-block;
+}
+
+.insidebox1 #span5 {
+  width: 262px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  /* Almost White */
+  color: #FFFDFA;
+}
+.insidebox1 #span6 {
+  width: 302px;
+  height: 52px;
+  margin-top: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* or 173% */
+  /* Silver */
+  color: #C5C6CE;
+}
+
+#line {
+  width: 302px;
+  height: 1px;
+  margin-top: 29px;
+  margin-left: 24px;
+  background: #5E607A;
+}
+
+.insidebox2 {
+  width: 302px;
+  height: 84px;
+  margin-top: 31px;
+  margin-left: 24px;
+  display: inline-block;
+}
+
+.insidebox2 #span7 {
+  width: 286px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  /* Almost White */
+  color: #FFFDFA;
+}
+.insidebox2 #span8 {
+  width: 302px;
+  height: 52px;
+  margin-top: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* or 173% */
+  /* Silver */
+  color: #C5C6CE;
+}
+
+.insidebox3 {
+  width: 302px;
+  height: 84px;
+  margin-left: 24px;
+  margin-top: 31px;
+}
+.insidebox3 #span9 {
+  width: 250px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  /* Almost White */
+  color: #FFFDFA;
+}
+.insidebox3 #span10 {
+  width: 302px;
+  height: 52px;
+  margin-top: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* or 173% */
+  /* Silver */
+  color: #C5C6CE;
+}
+
+.pc {
+  width: 100px;
+  height: 127px;
+}
+
+.content3 {
+  width: 1110px;
+  height: 129px;
+  margin-top: 71px;
+  margin-left: 165px;
+  display: inline-flex;
+}
+
+#boxA {
+  width: 350px;
+  height: 129px;
+  display: flex;
+}
+#boxA #first {
+  width: 226px;
+  height: 129px;
+  margin-left: 24px;
+  display: inline-block;
+}
+
+#one {
+  width: 38px;
+  height: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  /* identical to box height, or 100% */
+  /* Silver */
+  color: #C5C6CE;
+}
+
+#first #heading1 {
+  width: 169px;
+  height: 24px;
+  margin-top: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  /* Dark Space Blue */
+  color: #00001A;
+}
+#first #paragraph1 {
+  width: 226px;
+  height: 52px;
+  margin-top: 9px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* or 173% */
+  /* Gunmetal */
+  color: #5E607A;
+}
+
+#boxB {
+  width: 350px;
+  height: 129px;
+  display: flex;
+  margin-left: 30px;
+  display: inline-flex;
+}
+#boxB #second {
+  width: 226px;
+  height: 129px;
+  margin-left: 24px;
+  display: inline-block;
+}
+
+#second #two {
+  width: 43px;
+  height: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  /* identical to box height, or 100% */
+  /* Silver */
+  color: #C5C6CE;
+}
+#second #heading2 {
+  width: 209px;
+  height: 24px;
+  margin-top: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  /* Dark Space Blue */
+  color: #00001A;
+}
+#second #paragraph2 {
+  width: 226px;
+  height: 52px;
+  margin-top: 9px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* or 173% */
+  /* Gunmetal */
+  color: #5E607A;
+}
+
+#boxC {
+  width: 350px;
+  height: 129px;
+  display: flex;
+  margin-left: 30px;
+  display: inline-flex;
+}
+#boxC #third {
+  width: 226px;
+  height: 129px;
+  margin-left: 24px;
+  display: inline-block;
+}
+
+#third #three {
+  width: 44px;
+  height: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  /* identical to box height, or 100% */
+  /* Silver */
+  color: #C5C6CE;
+}
+#third #heading3 {
+  width: 200px;
+  height: 24px;
+  margin-top: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  /* Dark Space Blue */
+  color: #00001A;
+}
+#third #paragraph3 {
+  width: 226px;
+  height: 52px;
+  margin-top: 9px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* or 173% */
+  /* Gunmetal */
+  color: #5E607A;
+}
+
+#mobile {
+  display: none;
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    display: inline-block;
+    width: 375px;
+    height: 1900px;
+  }
+  .content1 {
+    width: 343px;
+    height: 28px;
+    margin-top: 28px;
+    margin-left: -10px;
+  }
+  #letter {
+    width: 45px;
+    height: 28px;
+    margin-left: 17px;
+  }
+  .menu {
+    display: none;
+  }
+  .content2 {
+    width: 345px;
+    height: 1190px;
+    margin-left: -17px;
+    margin-top: 32px;
+    display: inline-block;
+  }
+  #image {
+    display: none;
+  }
+  #mobile {
+    width: 343px;
+    height: 300px;
+    margin-left: 26px;
+    display: block;
+  }
+  .inlinebox {
+    height: 315px;
+    width: 343px;
+    display: initial;
+  }
+  #span1 {
+    width: 343px;
+    height: 120px;
+    margin-left: 26px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    display: flex;
+    align-items: center;
+    /* Dark Space Blue */
+    color: #00001A;
+  }
+  .info {
+    position: absolute;
+    width: 343px;
+    height: 196px;
+    margin-top: 200px;
+  }
+  #span2 {
+    width: 343px;
+    height: 104px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    /* or 173% */
+    /* Gunmetal */
+    color: #5E607A;
+  }
+  #button {
+    width: 185px;
+    height: 48px;
+  }
+  #box2 {
+    width: 343px;
+    height: 489px;
+    margin-top: 164px;
+    margin-left: -19px;
+  }
+  .content3 {
+    width: 343px;
+    height: 451px;
+    display: inline-block;
+    margin-left: -10px;
+  }
+  #boxA {
+    margin-left: 30px;
+  }
+  #boxB {
+    margin-top: 32px;
+  }
+  #boxC {
+    margin-top: 32px;
+  }
+  .neutral {
+    position: absolute;
+    margin-top: -1900px;
+    margin-left: 100px;
+  }
+}
+.neutral {
+  width: 256px;
+  height: 669px;
+  background-color: #FAFAFA;
+  display: block;
+}
+.neutral #close {
+  width: 30.41px;
+  height: 30.41px;
+  margin-top: 27px;
+  margin-left: 204px;
+}
+.neutral .triangle {
+  width: 203px;
+  height: 216px;
+  margin-top: 86px;
+  margin-left: 24px;
+  display: inline-block;
+}
+
+.triangle #spanA {
+  width: 203px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  /* Dark Space Blue */
+  color: #00001A;
+}
+.triangle #spanB {
+  width: 203px;
+  height: 24px;
+  margin-top: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  /* Dark Space Blue */
+  color: #1818ac;
+}
+.triangle #spanC {
+  width: 203px;
+  height: 24px;
+  margin-top: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  /* Dark Space Blue */
+  color: #00001A;
+}
+.triangle #spanD {
+  width: 203px;
+  height: 24px;
+  margin-top: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  /* Dark Space Blue */
+  color: #00001A;
+}
+.triangle #spanE {
+  width: 203px;
+  height: 24px;
+  margin-top: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  /* Dark Space Blue */
+  color: #00001A;
+}
+
+#open {
+  width: 40px;
+  height: 17px;
+  display: none;
+  margin-left: 250px;
+}
+
+.open:hover {
+  background-color: #f3f3f5;
+  box-shadow: #f7f7fa;
+}/*# sourceMappingURL=sass.css.map */
